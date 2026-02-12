@@ -12,7 +12,7 @@ In order to get the app up & running you have to:
 
     a. In the Google Cloud console, create a new project and enable the Google Sheets API (APIs & Sevices > Library, search for Google Sheets API and enable it).
     
-    b. Create a new Service Account, give it the right permissions to write and read and generate the keys (Manage keys and choose json format). You should download a .json file. Rename it to `credentials.json` and put it in the project root level.
+    b. Create a new Service Account and assign it the necessary permissions for read and write access. Then, generate the keys by selecting “Manage keys” and choosing the JSON format. Download the resulting .json file, rename it to `credentials.json`, and place it in the root directory of your project.
 
     c. Create the google sheet and share it with your Service Account email.
 
