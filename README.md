@@ -18,6 +18,7 @@ In order to get the app up & running you have to:
 
     d. Make sure to put the sheet Id in the .env file
 
-3. Run `go build -o bin/voiceline ./cmd`
-4. Run `./bin/voiceline`
-5. Send an API request to `/upload` (Name the form-data field to `audio` and add the audio file).
+3. Run `go mod tidy`
+4. Run `go build -o bin/voiceline ./cmd`
+5. Run `./bin/voiceline`
+6. Send an API request to `/upload` (Name the form-data field to `audio` and add the audio file).
